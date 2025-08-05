@@ -1,9 +1,8 @@
 # Run 'apt update' and 'apt upgrade' 
-#   
-
-# Update apt packages
 - hosts: all
   tasks: 
+  
+# Update apt packages
   - name: Update apt packages
     become: yes
     apt: 
